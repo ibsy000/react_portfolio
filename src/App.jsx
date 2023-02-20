@@ -2,6 +2,7 @@ import React from 'react'
 import AboutMe from './components/AboutMe'
 import HeroImage from './components/HeroImage'
 import Navbar from './components/Navbar'
+import SkillsAndExperience from './components/SkillsAndExperience'
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
                 <Navbar />
                 <HeroImage />
                 <AboutMe />
+                <SkillsAndExperience />
             </div>
         </>
     )
