@@ -4,6 +4,7 @@ import '../css/HeroImage.css'
 export default function HeroImage() {
     return (
         <>
+            {/*----------------------- Hero Image ---------------------------*/}
             <div className="d-flex flex-column justify-content-center align-items-center" id="hero-image">
                 <h1><code>&lt; Hello World /&gt;</code></h1>
                 <h2>I'm Ibsy.</h2>
