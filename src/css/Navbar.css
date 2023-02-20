@@ -1,0 +1,10 @@
+#nav-links a:hover {
+    color: #D63384;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+#nav-logo {
+    height: 50px;
+    width: 50px;
+}
