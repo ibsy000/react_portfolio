@@ -1,0 +1,13 @@
+#hero-image {
+    background-image: linear-gradient(0deg, #d633847a, rgba(128, 128, 128, 0.185)),
+        url(../assets/cloudy-morning.jpg);
+    height: 350px;
+    text-align: center;
+    color: white;
+}
+
+#hero-header-hr {
+    border: 2px solid #D63384;
+    opacity: 80%;
+    width: 50%;
+}
