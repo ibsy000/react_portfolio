@@ -2,6 +2,7 @@ import React from 'react'
 import AboutMeHeader from './AboutMeHeader'
 import CareerPathColumn from './CareerPathColumn'
 import '../css/AboutMe.css'
+import MyBackgroundColumn from './MyBackgroundColumn'
 
 export default function AboutMe() {
     return (
@@ -23,6 +24,9 @@ export default function AboutMe() {
                     <CareerPathColumn />
 
                     {/*--------------- My Background Column -----------------*/}
+                    <MyBackgroundColumn />
+
+                    {/*------------------ Personal Column -------------------*/}
                     
 
                 </div>
