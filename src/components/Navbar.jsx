@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <>
             {/*------------------------ Navbar ------------------------------*/}
-            <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                 <div className="container-fluid p-3">
 
                     {/*------------------- Nav Logo -------------------------*/}

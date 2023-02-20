@@ -1,29 +1,29 @@
 import React from 'react'
 
-export default function Project1() {
+export default function Project2() {
     return (
         <>
-            {/*------------------------ Project 1 ---------------------------*/}
-            <div className="accordion-item">
+            {/*------------------------ Project 2 ---------------------------*/}
+            <div class="accordion-item">
 
-                {/*-------------------- Project1 Header ---------------------*/}
-                <h2 className="accordion-header" id="flush-headingOne">
-                    <button className="accordion-button collapsed bg-warning " type="button" 
-                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" 
-                        aria-expanded="false" aria-controls="flush-collapseOne">
-                        Project #1
+                {/*-------------------- Project2 Header ---------------------*/}
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-danger " type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" 
+                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Project #2
                     </button>
                 </h2>
 
-                {/*--------------------- Project1 Content -------------------*/}
-                <div id="flush-collapseOne" className="accordion-collapse collapse" 
-                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body d-flex">
+                {/*--------------------- Project2 Content -------------------*/}
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" 
+                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body d-flex">
 
-                        {/*------------------ Project1 Image ----------------*/}
-                        <img src="https://picsum.photos/500/300" className="rounded" alt="..."/>
+                        {/*------------------ Project2 Image ----------------*/}
+                        <img src="https://picsum.photos/500/300" class="rounded" alt="..."/>
 
-                        {/*---------------- Project1 Desciption -------------*/}
+                        {/*---------------- Project2 Desciption -------------*/}
                         <ul>
                             <p><b>Tech Stack:</b> Python, Flask, SQLAlchemy,
                                 JavaScript, React, Node.js
