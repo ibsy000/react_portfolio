@@ -1,5 +1,7 @@
 import React from 'react'
 import AboutMeHeader from './AboutMeHeader'
+import CareerPathColumn from './CareerPathColumn'
+import '../css/AboutMe.css'
 
 export default function AboutMe() {
     return (
@@ -13,6 +15,18 @@ export default function AboutMe() {
                     <AboutMeHeader />
 
                 </div>
+
+                {/*-------------------- About Me Columns --------------------*/}
+                <div className="d-flex" id="about-me-columns">
+
+                    {/*---------------- Career Path Column ------------------*/}
+                    <CareerPathColumn />
+
+                    {/*--------------- My Background Column -----------------*/}
+                    
+
+                </div>
+
             </div>
         </>
     )
