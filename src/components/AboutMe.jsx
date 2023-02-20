@@ -3,6 +3,7 @@ import AboutMeHeader from './AboutMeHeader'
 import CareerPathColumn from './CareerPathColumn'
 import '../css/AboutMe.css'
 import MyBackgroundColumn from './MyBackgroundColumn'
+import PersonalColumn from './PersonalColumn'
 
 export default function AboutMe() {
     return (
@@ -27,7 +28,7 @@ export default function AboutMe() {
                     <MyBackgroundColumn />
 
                     {/*------------------ Personal Column -------------------*/}
-                    
+                    <PersonalColumn />
 
                 </div>
 
