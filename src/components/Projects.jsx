@@ -1,4 +1,5 @@
 import React from 'react'
+import Project1 from './Project1'
 
 export default function Projects() {
     return (
@@ -9,14 +10,14 @@ export default function Projects() {
                 <div class="row">
 
                     {/*-------------------- Projects Header -----------------*/}
-                    <h1 id="projects-header"><code>< Projects /></code></h1>
+                    <h1 id="projects-header"><code>&lt; Projects /&gt;</code></h1>
                     <hr/>
 
                     {/*----------------------- Accordian --------------------*/}
                     <div class="accordion accordion-flush" id="accordionFlushExample">
 
                         {/*------------------- Project 1 --------------------*/}
-                        
+                        <Project1 />
                         
                     </div>
 
