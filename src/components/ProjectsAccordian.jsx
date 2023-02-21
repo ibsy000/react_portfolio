@@ -7,7 +7,7 @@ export default function ProjectsAccordian() {
     return (
         <>
             {/*-------------------- Projects Accordian ----------------------*/}
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div className="accordion accordion-flush" id="accordionFlushExample">
 
                 {/*------------------- Project 1 --------------------*/}
                 <Project1 />

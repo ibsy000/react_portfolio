@@ -4,7 +4,7 @@ export default function LanguagesColumn() {
     return (
         <>
             {/*------------------ Languages Column --------------------------*/}
-            <div class="col-4">
+            <div className="col-4">
                 <ul>
                     <li>CSS</li>
                     <li>HTML</li>

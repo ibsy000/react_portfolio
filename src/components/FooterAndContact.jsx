@@ -10,7 +10,8 @@ export default function FooterAndContact(props) {
             {/*------------------------- Footer -----------------------------*/}
             <hr/>
             <div className="container" id="contact">
-                <div className="row bg-dark justify-content-center align-items-center" id="footer">
+                <div className="row justify-content-center align-items-center 
+                    bg-body-tertiary" id="footer" data-bs-theme="dark">
 
                     {/*---------------- Contact Me Header -------------------*/}
                     <ContactMeHeader />

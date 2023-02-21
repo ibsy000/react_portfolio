@@ -6,8 +6,8 @@ export default function Projects() {
         <>
             {/*----------------------- Projects -----------------------------*/}
             <hr id="projects"/>
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
 
                     {/*-------------------- Projects Header -----------------*/}
                     <h1 id="projects-header"><code>&lt; Projects /&gt;</code></h1>

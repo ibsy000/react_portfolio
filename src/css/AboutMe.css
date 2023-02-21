@@ -1,3 +1,5 @@
 #about-me-columns {
     text-align: center;
+    background-image: linear-gradient(white, #748ea4b6);
+    box-shadow: 20px 20px 15px grey;
 }

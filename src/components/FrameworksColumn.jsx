@@ -4,7 +4,7 @@ export default function FrameworksColumn() {
     return (
         <>
             {/*--------------------- Frameworks Columns ---------------------*/}
-            <div class="col-4">
+            <div className="col-4">
                 <ul>
                     <li>Bootstrap</li>
                     <li>Express.js</li>

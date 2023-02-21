@@ -4,7 +4,7 @@ export default function CareerPathColumn() {
     return (
         <>
             {/*------------------ Career Path Column ------------------------*/}
-            <div class="col-lg-4 p-2">
+            <div className="col-lg-4 p-2">
                 <h1>⚙️👩🏽‍💻🖥️</h1>
                 <h5>What brought me to my current career path?</h5>
                 <p>I often get called "tech support" because of my 

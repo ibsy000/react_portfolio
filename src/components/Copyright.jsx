@@ -4,8 +4,8 @@ export default function Copyright() {
     return (
         <>
             {/*------------------------- Copyright --------------------------*/}
-            <div class="d-flex justify-content-center align-items-center">
-                <p class="m-0"><code>&lt; &copy; Ibsy Matute /&gt;</code></p> 
+            <div className="d-flex justify-content-center align-items-center">
+                <p className="m-0"><code>&lt; &copy; Ibsy Matute /&gt;</code></p> 
             </div>
         </>
     )

@@ -6,9 +6,9 @@ export default function LanguagesAndFrameworks() {
     return (
         <>
             {/*------------- Languages and Frameworks Column ----------------*/}
-            <div class="col-lg-4" id="languages-frameworks">
+            <div className="col-lg-4" id="languages-frameworks">
                 <h3>Languages & Frameworks</h3>
-                <div class="row">
+                <div className="row">
 
                     {/*-------------- Languages Column --------------*/}
                     <LanguagesColumn />

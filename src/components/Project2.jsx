@@ -4,11 +4,11 @@ export default function Project2() {
     return (
         <>
             {/*------------------------ Project 2 ---------------------------*/}
-            <div class="accordion-item">
+            <div className="accordion-item">
 
                 {/*-------------------- Project2 Header ---------------------*/}
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed bg-danger " type="button" 
+                <h2 className="accordion-header" id="flush-headingTwo">
+                    <button className="accordion-button collapsed bg-danger " type="button" 
                         data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" 
                         aria-expanded="false" aria-controls="flush-collapseTwo">
                         Project #2
@@ -16,12 +16,12 @@ export default function Project2() {
                 </h2>
 
                 {/*--------------------- Project2 Content -------------------*/}
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" 
+                <div id="flush-collapseTwo" className="accordion-collapse collapse" 
                         aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body d-flex">
+                    <div className="accordion-body d-flex">
 
                         {/*------------------ Project2 Image ----------------*/}
-                        <img src="https://picsum.photos/500/300" class="rounded" alt="..."/>
+                        <img src="https://picsum.photos/500/300" className="rounded" alt="..."/>
 
                         {/*---------------- Project2 Desciption -------------*/}
                         <ul>

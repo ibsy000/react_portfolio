@@ -4,11 +4,11 @@ export default function Project3() {
     return (
         <>
             {/*------------------------ Project 3 ---------------------------*/}
-            <div class="accordion-item">
+            <div className="accordion-item">
 
                 {/*-------------------- Project3 Header ---------------------*/}
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed bg-success" type="button" 
+                <h2 className="accordion-header" id="flush-headingThree">
+                    <button className="accordion-button collapsed bg-success" type="button" 
                         data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" 
                         aria-expanded="false" aria-controls="flush-collapseThree">
                         Project #3
@@ -16,12 +16,12 @@ export default function Project3() {
                 </h2>
 
                 {/*--------------------- Project3 Content -------------------*/}
-                <div id="flush-collapseThree" class="accordion-collapse collapse" 
+                <div id="flush-collapseThree" className="accordion-collapse collapse" 
                         aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body d-flex">
+                    <div className="accordion-body d-flex">
 
                         {/*------------------ Project3 Image ----------------*/}
-                        <img src="https://picsum.photos/500/300" class="rounded" alt="..."/>
+                        <img src="https://picsum.photos/500/300" className="rounded" alt="..."/>
 
                         {/*---------------- Project3 Desciption -------------*/}
                         <ul>
