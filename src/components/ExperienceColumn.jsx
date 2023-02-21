@@ -15,7 +15,7 @@ export default function ExperienceColumn() {
                         using PostgreSQL withDBeaver to query, analyze, and 
                         manipulate data.</p>
                     <a className="align-self-end" href="../assets/Ibsy_Matute_Resume.pdf">
-                        <button type="button" className="btn btn-dark">
+                        <button type="button" className="btn btn-dark mb-3">
                             Read more...
                         </button>
                     </a>

@@ -1,6 +1,7 @@
 import React from 'react'
 import ExperienceColumn from './ExperienceColumn'
 import LanguagesAndFrameworks from './LanguagesAndFrameworks'
+import '../css/LanguagesExperience.css'
 
 export default function SkillsAndExperience() {
     return (
@@ -14,11 +15,14 @@ export default function SkillsAndExperience() {
                     <h1 id="skills-header"><code>&lt; Skills & Experience /&gt;</code></h1>
                     <hr/>
 
-                    {/*------------ Languages & Frameworks Column -----------*/}
-                    <LanguagesAndFrameworks />
+                    <div className="row" id="languages-experience">
 
-                    {/*---------------- Experience Column -------------------*/}
-                    <ExperienceColumn />
+                        {/*------------ Languages & Frameworks Column -----------*/}
+                        <LanguagesAndFrameworks />
+
+                        {/*---------------- Experience Column -------------------*/}
+                        <ExperienceColumn />
+                    </div>
 
                 </div>
             </div>
