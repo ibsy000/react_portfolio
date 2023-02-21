@@ -2,7 +2,7 @@ import React from 'react'
 import SocialIcons from './SocialIcons'
 import '../css/FooterAndContact.css'
 
-export default function FooterAndContact() {
+export default function FooterAndContact(props) {
     return (
         <>
             {/*------------------------- Footer -----------------------------*/}
@@ -16,7 +16,7 @@ export default function FooterAndContact() {
                     <hr id="contact-hr"></hr>
 
                     {/*--------------------- Social Icons -------------------*/}
-                    <SocialIcons />
+                    <SocialIcons myLinkedIn={props.myLinkedIn} myGitHub={props.myGitHub}/>
 
                     {/*---------------------- Copyright ---------------------*/}
                     <div class="d-flex justify-content-center align-items-center">

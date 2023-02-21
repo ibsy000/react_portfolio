@@ -7,6 +7,18 @@ import Projects from './components/Projects'
 import SkillsAndExperience from './components/SkillsAndExperience'
 
 export default function App() {
+    
+    // Functions used to open a new window/tab when clicking on my LinkedIn or
+    // GitHub icons
+
+    const myLinkedIn = () => {
+        window.open("https://www.linkedin.com/in/ibsy-matute/")
+    }
+    
+    const myGitHub = () => {
+        window.open("https://github.com/ibsy000")
+    }
+
     return (
         <>
             {/* ---------------------- Main Container -----------------------*/}
@@ -16,7 +28,7 @@ export default function App() {
                 <AboutMe />
                 <SkillsAndExperience />
                 <Projects />
-                <FooterAndContact />
+                <FooterAndContact myLinkedIn={myLinkedIn} myGitHub={myGitHub}/>
             </div>
         </>
     )
