@@ -9,11 +9,14 @@ export default function SkillsAndExperience() {
             {/*----------------- Skills & Experience ------------------------*/}
             <hr id="skills-experience"/>
             <div className="container">
+
                 <div className="row">
 
                     {/*------------- Skills & Experience Header -------------*/}
                     <h1 id="skills-header"><code>&lt; Skills & Experience /&gt;</code></h1>
                     <hr/>
+
+                </div>
 
                     <div className="row" id="languages-experience">
 
@@ -22,9 +25,9 @@ export default function SkillsAndExperience() {
 
                         {/*---------------- Experience Column -------------------*/}
                         <ExperienceColumn />
+                        
                     </div>
 
-                </div>
             </div>
         </>
     )

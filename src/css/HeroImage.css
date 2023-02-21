@@ -4,6 +4,7 @@
     height: 350px;
     text-align: center;
     color: white;
+    box-shadow: 20px 20px 15px grey;
 }
 
 #hero-header-hr {

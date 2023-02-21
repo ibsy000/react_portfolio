@@ -14,6 +14,8 @@ export default function Projects() {
                     <h1 id="projects-header"><code>&lt; Projects /&gt;</code></h1>
                     <hr/>
 
+                </div>
+                
                     <div className="row" id="projects-accordian">
 
                     {/*------------------- Projects Accordian ---------------*/}
@@ -21,7 +23,6 @@ export default function Projects() {
 
                     </div>
 
-                </div>
             </div>
         </>
     )

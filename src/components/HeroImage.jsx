@@ -6,7 +6,7 @@ export default function HeroImage() {
         <>
             {/*----------------------- Hero Image ---------------------------*/}
             <div className="d-flex flex-column justify-content-center align-items-center" id="hero-image">
-                <h1><code>&lt; Hello World /&gt;</code></h1>
+                <h1 className="display-4"><code>&lt; Hello World /&gt;</code></h1>
                 <h2>I'm Ibsy.</h2>
                 <h2>Full Stack Software Engineer</h2>
                 <hr id="hero-header-hr"/>
