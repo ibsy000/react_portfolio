@@ -4,7 +4,7 @@ export default function MyBackgroundColumn() {
     return (
         <>
             {/*------------------- My Background Column ---------------------*/}
-            <div class=" p-2">
+            <div class="col-lg-4 p-2">
                 <h1>👩🏽‍💼🎓🤹🏽‍♀️</h1>
                 <h5>My "non-traditional" background.</h5>
                 <p>I am a wearer of many hats. My background includes

@@ -4,7 +4,7 @@ export default function PersonalColumn() {
     return (
         <>
             {/*------------------- Personal Column --------------------------*/}
-            <div class=" p-2">
+            <div class="col-lg-4 p-2">
                 <h1>🚣🏽‍♀️🤸🏽‍♀️🚵🏽‍♀️</h1>
                 <h5>Wanna get to know me personally?</h5>
                 <p>I'm like a variety pack of chips. There are so many

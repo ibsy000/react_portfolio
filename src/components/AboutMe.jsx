@@ -19,7 +19,7 @@ export default function AboutMe() {
                 </div>
 
                 {/*-------------------- About Me Columns --------------------*/}
-                <div className="d-flex" id="about-me-columns">
+                <div className="row" id="about-me-columns">
 
                     {/*---------------- Career Path Column ------------------*/}
                     <CareerPathColumn />
