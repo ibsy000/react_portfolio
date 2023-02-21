@@ -1,7 +1,6 @@
 import React from 'react'
 import ExperienceColumn from './ExperienceColumn'
-import FrameworksColumn from './FrameworksColumn'
-import LanguagesColumn from './LanguagesColumn'
+import LanguagesAndFrameworks from './LanguagesAndFrameworks'
 
 export default function SkillsAndExperience() {
     return (
@@ -16,18 +15,7 @@ export default function SkillsAndExperience() {
                     <hr/>
 
                     {/*------------ Languages & Frameworks Column -----------*/}
-                    <div class="col-lg-4" id="languages-frameworks">
-                        <h3>Languages & Frameworks</h3>
-                        <div class="row">
-
-                            {/*-------------- Languages Column --------------*/}
-                            <LanguagesColumn />
-
-                            {/*-------------- Frameworks Column -------------*/}
-                            <FrameworksColumn />
-
-                        </div>
-                    </div>
+                    <LanguagesAndFrameworks />
 
                     {/*---------------- Experience Column -------------------*/}
                     <ExperienceColumn />
