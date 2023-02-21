@@ -1,6 +1,8 @@
 import React from 'react'
 import SocialIcons from './SocialIcons'
 import '../css/FooterAndContact.css'
+import ContactMeHeader from './ContactMeHeader'
+import Copyright from './Copyright'
 
 export default function FooterAndContact(props) {
     return (
@@ -11,18 +13,13 @@ export default function FooterAndContact(props) {
                 <div className="row bg-dark justify-content-center align-items-center" id="footer">
 
                     {/*---------------- Contact Me Header -------------------*/}
-                    <div className="d-flex justify-content-center align-items-center">
-                        <h4 id="contact-header"><code>&lt; <b>Contact Me</b> /&gt;</code></h4>
-                    </div>
-                    <hr id="contact-hr"></hr>
+                    <ContactMeHeader />
 
                     {/*--------------------- Social Icons -------------------*/}
                     <SocialIcons myLinkedIn={props.myLinkedIn} myGitHub={props.myGitHub}/>
 
                     {/*---------------------- Copyright ---------------------*/}
-                    <div class="d-flex justify-content-center align-items-center">
-                        <p class="m-0"><code>&lt; &copy; Ibsy Matute /&gt;</code></p> 
-                    </div>
+                    <Copyright />
 
                 </div>
             </div>
