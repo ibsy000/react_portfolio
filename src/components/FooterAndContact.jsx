@@ -1,4 +1,6 @@
 import React from 'react'
+import SocialIcons from './SocialIcons'
+import '../css/FooterAndContact.css'
 
 export default function FooterAndContact() {
     return (
@@ -14,10 +16,14 @@ export default function FooterAndContact() {
                     <hr id="contact-hr"></hr>
 
                     {/*--------------------- Social Icons -------------------*/}
-                    
+                    <SocialIcons />
+
+                    {/*---------------------- Copyright ---------------------*/}
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="m-0"><code>&lt; &copy; Ibsy Matute /&gt;</code></p> 
+                    </div>
 
                 </div>
-
             </div>
         </>
     )

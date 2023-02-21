@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from './components/AboutMe'
+import FooterAndContact from './components/FooterAndContact'
 import HeroImage from './components/HeroImage'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
@@ -15,6 +16,7 @@ export default function App() {
                 <AboutMe />
                 <SkillsAndExperience />
                 <Projects />
+                <FooterAndContact />
             </div>
         </>
     )
