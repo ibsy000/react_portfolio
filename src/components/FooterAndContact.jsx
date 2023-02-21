@@ -6,6 +6,7 @@ export default function FooterAndContact(props) {
     return (
         <>
             {/*------------------------- Footer -----------------------------*/}
+            <hr/>
             <div className="container" id="contact">
                 <div className="row bg-dark justify-content-center align-items-center" id="footer">
 
